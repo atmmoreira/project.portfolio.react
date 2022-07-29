@@ -10,8 +10,10 @@ function App() {
       <div className="container">
         <Header />
         <div className="curriculum">
-          <Sidebar />
-          <Main />
+          <div className="row flex-lg-row-reverse flex-sm-row">
+            <Sidebar />
+            <Main />
+          </div>
         </div>
       </div>
     </>

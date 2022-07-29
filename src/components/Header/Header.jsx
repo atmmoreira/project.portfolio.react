@@ -7,15 +7,15 @@ import IconPortuguese from '../../assets/images/IconPortuguese.png'
 
 export const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar">
       <div className="container-fluid">
-        <nav className="d-flex">
+        <div className="d-flex">
           <a href="/" className="active">Home</a>
           <a href="/hired">Orçamentos</a>
-        </nav>
-        <div className="d-flex">
-          <img className="mx-2" src={IconPortuguese} alt="IconPortuguese" />
-          <img src={IconEnglish} alt="IconEnglish" />
+        </div>
+        <div>
+          <a href="#"><img src={IconPortuguese} alt="IconPortuguese" /></a>
+          <a href="#"><img src={IconEnglish} alt="IconEnglish" /></a>
         </div>
       </div>
     </nav>
